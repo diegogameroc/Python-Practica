@@ -17,7 +17,7 @@ from pprint import pprint
 dic_numeros ={}
 
 for numero in range(10,31):
-    dic_numeros[numero]=genera_listado_divisores(numero) # aqui deberia ir el listado de los divisores del numero colacado como llave
+    dic_numeros[numero]= genera_listado_divisores(numero) # aqui deberia ir el listado de los divisores del numero colacado como llave
     pass
     
 pprint(dic_numeros)
